@@ -1,0 +1,7 @@
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	cm = commit
+[user]
+	email = h_sekiyama@r.recruit.co.jp
