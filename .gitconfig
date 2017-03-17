@@ -3,5 +3,9 @@
 	st = status
 	br = branch
 	cm = commit
+	p = !git push origin `git rev-parse --abbrev-ref HEAD`
+[fetch]
+	prune = true
 [user]
+	name = sekiyama-hidemitsu
 	email = h_sekiyama@r.recruit.co.jp
